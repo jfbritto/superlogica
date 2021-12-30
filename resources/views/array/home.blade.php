@@ -45,10 +45,11 @@
 <code>
     for ($i=count($array_new); $i > 0; $i--) { <br>
 
-    &nbsp;&nbsp;if ($i != count($array_new))<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;if($array_new[($i)] < $array_new[($i-1)]){<br>
+    &nbsp;&nbsp;if ($i != count($array_new)) {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;if($array_new[($i)] < $array_new[($i-1)]) {<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unset($array_new[($i)]);<br>
         &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+        &nbsp;&nbsp;}<br>
         }<br>
 </code>
 <hr>

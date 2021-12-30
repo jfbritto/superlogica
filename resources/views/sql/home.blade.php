@@ -30,8 +30,8 @@
         <code>
             CREATE TABLE `usuario` (<br>
             &nbsp;&nbsp;`id` int(11) NOT NULL AUTO_INCREMENT,<br>
-            &nbsp;&nbsp;`cpf` varchar(45) DEFAULT NULL,<br>
-            &nbsp;&nbsp;`nome` varchar(45) DEFAULT NULL,<br>
+            &nbsp;&nbsp;`cpf` varchar(45) NOT NULL,<br>
+            &nbsp;&nbsp;`nome` varchar(45) NOT NULL,<br>
             &nbsp;&nbsp;PRIMARY KEY (`id`)<br>
             );<br>
         </code>
@@ -59,8 +59,8 @@
             CREATE TABLE `info` (<br>
             &nbsp;&nbsp;`id` int(11) NOT NULL AUTO_INCREMENT,<br>
             &nbsp;&nbsp;`cpf` varchar(45) NOT NULL,<br>
-            &nbsp;&nbsp;`genero` char(1) DEFAULT NULL,<br>
-            &nbsp;&nbsp;`ano_nascimento` varchar(10) DEFAULT NULL,<br>
+            &nbsp;&nbsp;`genero` char(1) NOT NULL,<br>
+            &nbsp;&nbsp;`ano_nascimento` varchar(10) NOT NULL,<br>
             &nbsp;&nbsp;PRIMARY KEY (`id`)<br>
             );<br>
         </code>

@@ -21,7 +21,7 @@
 @stop
 
 @section('content')
-<p>No menu lateral estão disponíveis os exercícios propostos.</p>
+<p>No menu lateral estão disponíveis as respostas dos exercícios propostos.</p>
 @stop
 
 @section('js')
