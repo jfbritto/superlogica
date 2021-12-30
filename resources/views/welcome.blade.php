@@ -1,6 +1,10 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('meta_tags')
+<link rel="icon" href="/img/favicon.svg" type="image/svg">
+@stop
+
+@section('title', 'SuperLógica')
 
 @section('content_header')
 <h1>Teste Super Lógica</h1>
