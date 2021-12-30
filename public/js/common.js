@@ -60,6 +60,7 @@ $("#zipCode").on("keyup", function(){
                             if(data.erro){
                                 showError(`Cep <strong>${zip_code}</strong> não encontrado!`)
                                 $("#zipCode").val("")
+                                $(".zipCodeResp").hide()
                                 return false;
                             }
 
