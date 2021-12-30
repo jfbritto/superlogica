@@ -63,18 +63,20 @@
         Usuários cadastrados
     </div>
     <div class="card-body">
-        <table class="table" id="table">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Login</th>
-                    <th>Email</th>
-                    <th>CEP</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody id="list"></tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Login</th>
+                        <th>Email</th>
+                        <th>CEP</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="list"></tbody>
+            </table>
+        </div>
     </div>
 </div>
 
