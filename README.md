@@ -4,7 +4,7 @@
 
 Baixe o repositório 
 
-* Crie o banco de dados mysql `supelogica`
+* Crie o banco de dados mysql `superlogica`
 
 Entre na raíz do projeto e siga os passos abaixo:
 
