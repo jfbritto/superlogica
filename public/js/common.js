@@ -54,7 +54,7 @@ $("#zipCode").on("keyup", function(){
                 allowEscapeKey: false,
                 onOpen: () => {
                     Swal.showLoading();
-                    $.get(`http://viacep.com.br/ws/${zip_code_format}/json`, { })
+                    $.get(`https://viacep.com.br/ws/${zip_code_format}/json`, { })
                         .then(function (data) {
 
                             if(data.erro){
