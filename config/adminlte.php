@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Super</b>Lógica',
+    'logo' => '<b>Super</b>lógica',
     'logo_img' => 'img/logo.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,

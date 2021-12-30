@@ -4,7 +4,7 @@
 <link rel="icon" href="/img/favicon.svg" type="image/svg">
 @stop
 
-@section('title', 'Array - SuperLógica')
+@section('title', 'Array - Superlógica')
 
 @section('content_header')
 <h1>Array</h1>

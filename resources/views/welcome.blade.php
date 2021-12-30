@@ -2,12 +2,14 @@
 
 @section('meta_tags')
 <link rel="icon" href="/img/favicon.svg" type="image/svg">
+<img class="mb-5" src="/img/favicon.svg" alt="" />
+<h1 class="mb-0">Teste Superlógica</h1>
 @stop
 
-@section('title', 'SuperLógica')
+@section('title', 'Superlógica')
 
 @section('content_header')
-<h1>Teste Super Lógica</h1>
+<h1>Teste Superlógica</h1>
 @stop
 
 @section('content')

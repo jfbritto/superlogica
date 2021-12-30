@@ -4,7 +4,7 @@
 <link rel="icon" href="/img/favicon.svg" type="image/svg">
 @stop
 
-@section('title', 'SQL - SuperLógica')
+@section('title', 'SQL - Superlógica')
 
 @section('content_header')
 <h1>SQL</h1>
